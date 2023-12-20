@@ -82,5 +82,9 @@ def getClues(guess, secretNum):
 if __name__ == '__main__':
     main()
 
+""" Credits:
+Dveloper : Kelvin Kwashie
+Refrence : Big Book Small Projects
+Under the guidance of Chris Karvouniaris"""
 
 
