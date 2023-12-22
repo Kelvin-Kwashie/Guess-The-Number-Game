@@ -27,7 +27,7 @@ def main():
             guess = ''
             #keep looping until they enter a valid guess
             while len(guess) !=  NUM_DIGITS or not guess.isdecimal():
-                print('Guess #{}:'.format(Num_guesses))
+                print(f'Guess #{Num_guesses}:')
                 guess = input('> ')
 
             clues = getClues(guess, Secret_num)
